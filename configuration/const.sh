@@ -1,0 +1,3 @@
+TAG="0.0.1.v20200415"
+IMAGE="atrous"
+IMAGE_TAG=""${IMAGE}":"${TAG}""

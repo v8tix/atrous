@@ -14,10 +14,14 @@ Welcome to the Atrous project. This image is part of the [k8sb](https://github.c
 2. Common operations.
 ### 1. The Atrous image contexts.
 * The following figure shows these contexts:
-![atrous contexts](resources/atrous-contexts.png)
-* In this case Atrous uses one contexts: 
+![atrous contexts](resources/atrous-contexts-1.png)
+* In this case Atrous uses three contexts: 
   * Configuration and packages: 
-    * In this context Atrous adds a public key.  
+    * In this context Atrous adds a public key.
+  * Security. 
+    * SUID and SGID permissions removed from applications.    
+  * Clean up. 
+    * Deleted: documentation, cache, and logs generated in the Configuration and packages context.      
 ### 2. Common operations.
 * At the root directory you will find the following directories.
   * configuration:
