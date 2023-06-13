@@ -1,4 +1,4 @@
-FROM v8tix/cronov:0.0.4.v20200324.0efd158
+FROM v8tix/cronov:v1.0.0
 LABEL MAINTAINER="V8TIX"
 LABEL MAIL="info@v8tix.com"
 RUN ["/bin/bash", "-c", "mkdir /home/v8tix/.ssh"]
